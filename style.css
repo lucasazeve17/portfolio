@@ -76,6 +76,9 @@ main{
     justify-content: space-between;
     /* align-items: center; */
 }
+.wrapper .infos p{
+    font-size: 2rem;
+}
 .wrapper p{
     font-size: 3rem;
     font-weight: 500;
@@ -103,15 +106,15 @@ main{
     justify-content: space-between;
 }
 .about .container .container-title p{
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     color: #f9f9f990;
 }
 .about .container img{
-    width: 1rem;
+    width: 1.5rem;
     margin-left: 1rem;
 }
 .about .container .container-subtitle{
-    font-size: 0.65rem;
+    font-size: 1.25rem;
     color: #d9d9d960;
 }
 .about .container:hover{
@@ -170,7 +173,7 @@ main{
     .wrapper{
         flex-direction: column;
         margin: 0;
-        padding: 8px;
+        padding: 1rem;
         justify-content: center;
         align-items: center;
     }
