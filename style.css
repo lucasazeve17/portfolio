@@ -76,7 +76,7 @@ main{
     justify-content: space-between;
     /* align-items: center; */
 }
-.wrapper .infos p{
+.wrapper .infos {
     font-size: 2rem;
 }
 .wrapper p{
@@ -90,7 +90,7 @@ main{
 }
 .about{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: #212124;
     padding: 8rem 4rem;
 }
@@ -147,7 +147,37 @@ main{
     margin-bottom: 1.5rem;
 }
 
+.skills{
+    display: flex;
+    flex-direction: column;
+    background: #212124;
+    padding: 1rem 4rem;
+    color: #fff;
+}
+.skills .slide{
+    display: flex;
+    margin-top: 2rem;
+}
+.skills .slide .slide-body{
+    overflow-x: scroll;
+    -webkit-overflow-scrolling:none ;
 
+}
+.skills .slide .slide-body::-webkit-scrollbar{
+    display: none;
+}
+.skills .slide ul{
+    list-style: none;
+    display: flex;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    background: #212124;
+    padding: 1rem 4rem;
+    color: #fff;
+}
 
 @media(max-width:768px){
     .header{
@@ -188,5 +218,7 @@ main{
         padding: 0.65rem;
         margin:1.5rem 0px;
     }
-
+    .skills{
+        padding: 1rem 0;
+    }
 }
