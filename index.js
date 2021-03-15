@@ -1,6 +1,7 @@
 let w = 0
 const arrowLeft = document.querySelector('.arrow')
 const slide = document.querySelector('.slide-body')
+
 arrowLeft.addEventListener('click',function(){
     console.log('width', w)
 
